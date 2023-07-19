@@ -19,5 +19,13 @@ Explore US Bikeshare Data
 - Counts of user types (subscriber, customer), and (if available) gender and birth year statistics.
 4. **Raw Data Display**: Users have the option to view the raw data 5 rows at a time. 
 
+### Usage 
+1. Run the code in your Python environment.
+2. The code will prompt you to enter the city name (Chicago, New York City, or Washington) and whether you want to filter the data by month, day, both, or not at all.
+
+3. If you choose to filter by month, the code will prompt you to enter the month (January to June).
+
+4. If you choose to filter by day, the code will prompt you to enter the day of the week (Monday to Sunday).
+
 ### Files used
 Files used for this project are csv files of Chicago, New York City, and Washington statistics on bikeshare, available from the Udacity course portal. 
