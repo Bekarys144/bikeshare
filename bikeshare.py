@@ -1,3 +1,6 @@
+# US Bikeshare Data Analysis
+# This script allows users to explore and analyze bikeshare data for three cities: Chicago, New York City, and Washington.
+
 import time
 import pandas as pd
 import numpy as np
