@@ -5,6 +5,8 @@ import time
 import pandas as pd
 import numpy as np
 
+SEPARATOR = '-' * 40
+
 CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
@@ -49,7 +51,7 @@ def get_filters():
     else:
         day = 'all'
 
-    print('-'*40)
+    print(SEPARATOR)
     return city, month, day
 
 
@@ -84,7 +86,7 @@ def time_stats(df):
     print(f"The most common start hour is: {common_hour}")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(SEPARATOR)
 
 
 def station_stats(df):
@@ -101,7 +103,7 @@ def station_stats(df):
     print(f"The most frequent combination of start station and end station trip is:\n{frequent_combination}")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(SEPARATOR)
 
 
 def trip_duration_stats(df):
@@ -115,7 +117,7 @@ def trip_duration_stats(df):
     print(f"The mean travel time is: {mean_travel_time} seconds")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(SEPARATOR)
 
 
 def user_stats(df):
@@ -142,7 +144,7 @@ def user_stats(df):
         print("\nBirth year data is not available for this city.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(SEPARATOR)
 
 
 def display_data(df):
