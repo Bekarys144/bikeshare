@@ -27,5 +27,9 @@ Explore US Bikeshare Data
 
 4. If you choose to filter by day, the code will prompt you to enter the day of the week (Monday to Sunday).
 
+5. After applying the desired filters, the code will display statistics related to the bikeshare data in accordance with the chosen filters.
+
+6. You will have the option to view 5 rows of the filtered data at a time and choose whether to restart the analysis or exit.
+
 ### Files used
 Files used for this project are csv files of Chicago, New York City, and Washington statistics on bikeshare, available from the Udacity course portal. 
